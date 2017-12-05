@@ -23,8 +23,10 @@
     android:layout_height="match_parent">
 
     <!--(8) Wrap the TextView in a ScrollView-->
-    <!--TODO (9) Set the ScrollView width to match_parent and the height to wrap_content-->
-    <ScrollView>
+    <!--(9) Set the ScrollView width to match_parent and the height to wrap_content-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
         <!--(2) Change the TextView's android:id attribute to tv_weather_data-->
         <!--(3) Give the TextView 16dp of padding-->
         <!--(4) Set the text size to 20sp-->
