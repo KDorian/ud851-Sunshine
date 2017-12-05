@@ -15,11 +15,10 @@
      limitations under the License.
 -->
 <!--(1) Change the ConstraintLayout to a FrameLayout-->
-<!--TODO (7) Remove the line that declares the id, we don't need it-->
+<!--(7) Remove the line that declares the id, we don't need it-->
 <android.support.constraint.FrameLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -30,7 +29,7 @@
     <!--(3) Give the TextView 16dp of padding-->
     <!--(4) Set the text size to 20sp-->
     <!--(5) Remove all attributes with the word constraint in them-->
-    <!--git add .(6) Remove the default text from the TextView-->
+    <!--(6) Remove the default text from the TextView-->
     <TextView
         android:id="@+id/tv_weather_data"
         android:layout_width="wrap_content"
