@@ -50,6 +50,9 @@ public class MainActivity extends AppCompatActivity {
                 "Mon, May 30 - Post Apocalypse - 15°C / 10°C",
         };
 
-        // TODO (4) Append each String from the fake weather data array to the TextView
+        // (4) Append each String from the fake weather data array to the TextView
+        for (String dummyWeatherDay : dummyWeatherData) {
+            mWeatherTextView.append(dummyWeatherDay + "\n\n\n");
+        }
     }
 }
